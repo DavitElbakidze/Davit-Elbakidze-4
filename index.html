@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled Web Page</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      h2 {
+        color: blue;
+        font-size: 24px;
+      }
+
+      .box {
+        background-color: #16616c6e;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 15px;
+      }
+
+      #main-header {
+        background-color: #7b386c4f;
+        color: #333333;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 15px;
+      }
+
+      * {
+        font-family: "Arial", sans-serif;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      th {
+        background-color: #333;
+        color: white;
+      }
+
+      td,
+      th {
+        padding: 10px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #e0e0e0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-header">Header</div>
+
+    <p>
+      Welcome to my
+      <span style="font-weight: bold; color: red">web</span> page.
+    </p>
+
+    <h2>Heading With h2</h2>
+
+    <div class="box">
+      <p>Div1</p>
+    </div>
+
+    <div class="box">
+      <p>Div2</p>
+    </div>
+
+    <h2>Table</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Date</th>
+      </tr>
+      <tr>
+        <td>Davit</td>
+        <td>20</td>
+        <td>2024-09-30</td>
+      </tr>
+      <tr>
+        <td>Nika</td>
+        <td>21</td>
+        <td>2024-09-29</td>
+      </tr>
+      <tr>
+        <td>Mariam</td>
+        <td>22</td>
+        <td>2024-09-28</td>
+      </tr>
+    </table>
+
+    <h2>Video</h2>
+    <iframe
+      width="560"
+      height="325"
+      src="https://www.youtube.com/embed/G3e-cpL7ofc?start=5411"
+      title="YouTube video"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    ></iframe>
+  </body>
+</html>
